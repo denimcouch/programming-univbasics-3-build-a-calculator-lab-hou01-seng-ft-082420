@@ -36,7 +36,7 @@ end
 
 addition(5, 4)
 subtraction(5, 10)
-division(50, 2)
+division(2, 50)
 multiplication(4, 30)
 modulo(34, 5)
 square_root(81)
