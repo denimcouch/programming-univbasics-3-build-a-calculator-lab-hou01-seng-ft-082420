@@ -28,4 +28,6 @@ def square_root(num)
   puts root.to_f
 end
 
-addition(5,4)
+addition(5, 4)
+subtraction(10, 5)
+division()
