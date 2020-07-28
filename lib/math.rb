@@ -3,7 +3,7 @@ def addition(num1, num2)
  puts sum
  sum
 end
-binding.pry
+
 def subtraction(num1, num2)
   difference = "#{num2}".to_i - "#{num1}".to_i
   puts difference
