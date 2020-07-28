@@ -25,12 +25,12 @@ end
 
 def square_root(num)
   root = Math.sqrt("#{num}")
-  puts root.to_f
+  puts root
 end
 
-addition(5, 4).to_i
-subtraction(5, 10).to_i
-division(50, 2).to_i
-multiplication(4, 30).to_i
-modulo(34, 5).to_i
-square_root(81).to_i
+addition(5, 4)
+subtraction(5, 10)
+division(50, 2)
+multiplication(4, 30)
+modulo(34, 5)
+square_root(81)
