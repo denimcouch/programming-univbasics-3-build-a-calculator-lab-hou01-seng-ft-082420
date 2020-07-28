@@ -31,4 +31,4 @@ end
 addition(5, 4)
 subtraction(10, 5)
 division(50, 2)
-multiplication()
+multiplication(4, 30)
