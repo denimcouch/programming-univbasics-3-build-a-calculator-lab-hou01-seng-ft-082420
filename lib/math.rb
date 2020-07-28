@@ -1,8 +1,10 @@
+require 'pry'
+
 def addition(num1, num2)
- sum = "#{num1}" + "#{num2}"
+ sum = "#{num1}".to_i + "#{num2}".to_i
  puts sum
 end
-
+binding.pry
 def subtraction(num1, num2)
   difference = "#{num2}" - "#{num1}"
   puts difference
@@ -34,3 +36,5 @@ division(50, 2)
 multiplication(4, 30)
 modulo(34, 5)
 square_root(81)
+
+binding.pry
