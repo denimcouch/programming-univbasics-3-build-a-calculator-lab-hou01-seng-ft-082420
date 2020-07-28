@@ -1,35 +1,35 @@
 def addition(num1, num2)
- sum = #{num1} + #{num2}
- puts sum.to_i
+ sum = "#{num1}" + "#{num2}"
+ puts sum
 end
 
 def subtraction(num1, num2)
-  difference = #{num2} - #{num1}
-  puts difference.to_i
+  difference = "#{num2}" - "#{num1}"
+  puts difference
 end
 
 def division(num1, num2)
   quoitient = "#{num2}" / "#{num1}"
-  puts quoitient.to_f
+  puts quoitient
 end
 
 def multiplication(num1, num2)
   product = "#{num1}" * "#{num2}"
-  puts product.to_i
+  puts product
 end
 
 def modulo(num1, num2)
   remainder = "#{num2}" % "#{num1}"
-  puts remainder.to_i
+  puts remainder
 end
 
 def square_root(num)
-  root = sqrt("#{num}")
+  root = Math.sqrt("#{num}")
   puts root.to_f
 end
 
-addition(5, 4)
-subtraction(5, 10)
+addition(5, 4).to_i
+subtraction(5, 10).to_i
 division(50, 2)
 multiplication(4, 30)
 modulo(34, 5)
