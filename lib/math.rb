@@ -5,13 +5,13 @@ def addition(num1, num2)
 end
 
 def subtraction(num1, num2)
-  difference = "#{num2}".to_i - "#{num1}".to_i
+  difference = "#{num1}".to_i - "#{num2}".to_i
   puts difference
   difference
 end
 
 def division(num1, num2)
-  quoitient = "#{num2}".to_i / "#{num1}".to_i
+  quoitient = "#{num1}".to_i / "#{num2}".to_i
   puts quoitient
   quoitient
 end
@@ -35,8 +35,8 @@ def square_root(num)
 end
 
 addition(5, 4)
-subtraction(5, 10)
-division(2, 50)
+subtraction(10, 5)
+division(50, 2)
 multiplication(4, 30)
 modulo(34, 5)
 square_root(81)
