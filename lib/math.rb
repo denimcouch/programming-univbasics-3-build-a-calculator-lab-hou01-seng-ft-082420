@@ -1,10 +1,10 @@
 def addition(num1, num2)
- sum = "#{num1}" + "#{num2}"
+ sum = #{num1} + #{num2}
  puts sum.to_i
 end
 
 def subtraction(num1, num2)
-  difference = "#{num2}" - "#{num1}"
+  difference = #{num2} - #{num1}
   puts difference.to_i
 end
 
