@@ -27,3 +27,4 @@ def square_root(num)
   root = sqrt("#{num}")
   puts root.to_f
 end
+
